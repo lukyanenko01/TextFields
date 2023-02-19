@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F2A9CB6F29A25D87009F258F /* MainTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A9CB6E29A25D87009F258F /* MainTextField.swift */; };
 		F2B5EAF2299C009F0062FE68 /* TextFieldsSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B5EAF1299C009F0062FE68 /* TextFieldsSwiftUIApp.swift */; };
-		F2B5EAF4299C009F0062FE68 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B5EAF3299C009F0062FE68 /* ContentView.swift */; };
+		F2B5EAF4299C009F0062FE68 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B5EAF3299C009F0062FE68 /* MainView.swift */; };
 		F2B5EAF6299C00A10062FE68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2B5EAF5299C00A10062FE68 /* Assets.xcassets */; };
 		F2B5EAF9299C00A10062FE68 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2B5EAF8299C00A10062FE68 /* Preview Assets.xcassets */; };
 		F2B5EB03299C00A10062FE68 /* TextFieldsSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B5EB02299C00A10062FE68 /* TextFieldsSwiftUITests.swift */; };
@@ -34,9 +35,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F2A9CB6E29A25D87009F258F /* MainTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTextField.swift; sourceTree = "<group>"; };
 		F2B5EAEE299C009F0062FE68 /* TextFieldsSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextFieldsSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2B5EAF1299C009F0062FE68 /* TextFieldsSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldsSwiftUIApp.swift; sourceTree = "<group>"; };
-		F2B5EAF3299C009F0062FE68 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F2B5EAF3299C009F0062FE68 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		F2B5EAF5299C00A10062FE68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F2B5EAF8299C00A10062FE68 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F2B5EAFE299C00A10062FE68 /* TextFieldsSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextFieldsSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -71,6 +73,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F2A9CB6D29A25CE5009F258F /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				F2A9CB6E29A25D87009F258F /* MainTextField.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		F2B5EAE5299C009F0062FE68 = {
 			isa = PBXGroup;
 			children = (
@@ -95,7 +105,8 @@
 			isa = PBXGroup;
 			children = (
 				F2B5EAF1299C009F0062FE68 /* TextFieldsSwiftUIApp.swift */,
-				F2B5EAF3299C009F0062FE68 /* ContentView.swift */,
+				F2B5EAF3299C009F0062FE68 /* MainView.swift */,
+				F2A9CB6D29A25CE5009F258F /* Components */,
 				F2B5EAF5299C00A10062FE68 /* Assets.xcassets */,
 				F2B5EAF7299C00A10062FE68 /* Preview Content */,
 			);
@@ -257,7 +268,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2B5EAF4299C009F0062FE68 /* ContentView.swift in Sources */,
+				F2A9CB6F29A25D87009F258F /* MainTextField.swift in Sources */,
+				F2B5EAF4299C009F0062FE68 /* MainView.swift in Sources */,
 				F2B5EAF2299C009F0062FE68 /* TextFieldsSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
